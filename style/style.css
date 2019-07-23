@@ -64,6 +64,7 @@ header{
 .section1-header {
     text-align: center;
     text-decoration: underline;
+    text-underline-position: under;
     text-decoration-color: #00B172;
     font-size: 40px;
     margin-top: 40px;
@@ -112,12 +113,12 @@ header{
 .section2-text{
     width: 50%;
     color: white;
-    /* margin-left: 100px; */
 }
 
 .section2-text > h3{
     font-size: 40px;
     text-decoration: underline;
+    text-underline-position: under;
 }
 
 .section2-text > div{
@@ -136,5 +137,4 @@ header{
 
 .section2-container > div > img{
     width: 370px;
-    /* margin-right: 100px */
 }
