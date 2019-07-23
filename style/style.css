@@ -1,0 +1,140 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.spotify-logo { 
+    width: 250px
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 15px 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-left: 20px;
+}
+
+header{
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+    color: white
+}
+
+.header-container {
+    padding-top: 300px;
+}
+
+.header-container > h1{
+    font-size: 90px;
+    margin-bottom: 25px;
+}
+
+.header-container >h2{
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.section1-header {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.section1-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px
+}
+
+.box-container {
+    text-align: center;
+    width: 30%;
+}
+
+.box-container > img{
+    height: 110px;
+}
+
+.box-container > h4{
+    font-size: 30px;
+    color: #00B172;
+    padding: 15px;
+}
+
+.box-container > p{
+    font-size: 25px;
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+.section2-container {
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    height: 800px;
+}
+
+.section2-text{
+    width: 50%;
+    color: white;
+    /* margin-left: 100px; */
+}
+
+.section2-text > h3{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.section2-text > div{
+    width: 48%;
+    margin-top: 50px;
+}
+
+.section2-text > div > h4{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.section2-text > div > p{
+    font-size: 24px;
+}
+
+.section2-container > div > img{
+    width: 370px;
+    /* margin-right: 100px */
+}
